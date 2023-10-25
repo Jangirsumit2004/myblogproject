@@ -1,0 +1,274 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.header
+{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+.header h1
+{
+    margin: 10px;
+    font-size: 50px;
+    color: rgb(34, 32, 32);
+}
+.header p
+{
+    font-size: 20px;
+    margin: 30px;
+}
+.header span{
+    color:white;
+    background-color:red;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.side
+{
+    height: none;
+    width: 100%;
+}
+.sidediv
+{
+    min-height: 1000px;
+    width: 60%;
+    float: left;
+    border-radius: 10px;
+    margin-left:50px;
+    margin-top: 50px;
+  
+}
+.tree 
+{
+    
+    min-height:100px;
+    width: 98%;
+    border: 2px solid black;
+    border-radius: 0px;
+    shape-outside: 15px;
+    background-image: cover;
+    background-repeat: no-repeat;
+ 
+    justify-content: center;
+    align-items: center;
+    margin-left:5px ;
+
+}
+.tree img{
+    width: 100%;
+    height: 400px;
+}
+.contenttree
+{
+    
+    text-align: left;
+}
+.contenttree h3
+{
+    
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contenttree h5{
+    color: black;
+    font-size: 30px;
+    margin-top: 5px;
+}
+.contenttree p
+{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+.btn
+{
+    background-color: grey;
+    padding: 10px;
+    margin-top: 15px;
+    transition: .5;
+}
+.btn:hover
+{
+    background-color: rgb(12, 11, 11);
+    color: white;
+}       
+.bridge
+{
+    min-height:100px;
+    width: 98%;
+    border: 2px solid black;
+    border-radius: 0px;
+    shape-outside: 15px;
+    background-image: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left:5px ;
+}
+.bridge img{
+    width: 100%;
+    height: 400px;
+  
+}
+.contenttree
+{
+    
+    text-align: left;
+}
+.contentbridge h3
+{
+    
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contentbridge h5{
+    color: black;
+    font-size: 30px;
+    margin-top: 5px;
+}
+.contentbridge p
+{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+.btn
+{
+    background-color: grey;
+    padding: 10px;
+    margin-top: 15px;
+    transition: .5;
+}
+.btn:hover
+{
+    background-color: rgb(12, 11, 11);
+    color: white;
+}       
+
+
+.rightdiv
+{
+       width: 30%;
+       min-height: 100px;
+       float: left;
+       margin-left: 30px;
+       margin-top: 50px;
+       border: 2px solid;
+}
+.rightdiv img
+{
+    width: 100%;
+    height:300px;
+}
+.selfcontent h2
+{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;    
+}
+.selfcontent p
+{
+    text-align: justify;
+    font-size: 20px;
+
+    
+}
+.boz
+{
+    min-height: 200px;
+    width: 30%;
+    border: 1px solid;
+    float: left;
+    margin-top: 150 px;
+    margin-left: 30px;
+  
+
+}
+.boz h2{
+   
+    background-color: rgba(105, 105, 105, 0.5);
+    padding: 20px;
+}
+.box1
+{
+    min-height: 50px;
+    width: 100%;
+    border: 1px solid;
+    float: left;
+    background-color: rgba(182, 121, 121, 0.7)
+}
+.box1 img
+{
+    height: 30px;
+    width: 30px;
+    padding:15px;
+    /* margin-top: 12px;
+    margin-left: 10px; */
+}
+.box1element
+{
+    display: inline;
+    float: left;
+}
+.box1element ul
+{
+    list-style-type: none;
+    display: inline;
+    float: right;
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+.box1:hover
+{
+    background-color: rgb(20, 26, 26);
+    color: white;
+}
+.tags
+{
+    margin-left: 30px;
+    margin-top: 100px;
+    min-height: 100px;
+    width: 30%;
+    float: left;
+    border: 1px solid;
+
+}
+.tags h3{
+    font-size: 40px;
+    color: blanchedalmond;
+    text-align: center;
+    border: 1px solid;
+    background-color: rgb(146, 80, 80);
+}
+.tagslist
+{
+    display: inline;
+    float: left;
+}
+.tagslist ul
+{
+    list-style-type: none;
+    display: inline;
+    float: right;
+
+}
+.tagslist ul li{
+    
+    float: left;
+    background-color: rgb(105, 101, 95);
+    padding: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.tagslist ul:hover
+{
+    background-color: rgb(66, 66, 84);
+    color: white;
+}
